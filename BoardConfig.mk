@@ -140,6 +140,9 @@ OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 
 HAVE_ADRENO_SOURCE:= false
 
+# Disable secure discard
+BOARD_SUPPRESS_SECURE_ERASE := true
+
 # Include an expanded selection of fonts
 EXTENDED_FONT_FOOTPRINT := true
 
